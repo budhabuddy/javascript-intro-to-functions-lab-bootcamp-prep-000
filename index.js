@@ -10,12 +10,12 @@ function whisper(string) {
 
 function logShout(string) {
  
-  console.log('hello');
+  console.log('HELLO');
 }
 
 function logWhisper(string) {
  
-  console.log('HELLO' + string.toLowerCase);
+  console.log('hello');
 }
 
 /*
