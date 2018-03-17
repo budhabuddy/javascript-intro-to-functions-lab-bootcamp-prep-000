@@ -25,7 +25,7 @@ function sayHiToGrandma(string) {
     else if(string === string.toLowerCase) {
     return "YES INDEED!";
   }
-    learn testelse(string === "I love you, Grandma") {
+    else(string === "I love you, Grandma") {
     return "I love you too";
   }
 }
