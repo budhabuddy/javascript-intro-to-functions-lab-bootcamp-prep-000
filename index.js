@@ -25,6 +25,12 @@ function sayHiToGrandma(string) {
     else if(string === 'HELLO') {
     return "YES INDEED!";
 }
+    else if(string === 'I love you, Grandma'){
+      return "I love you, too."
+    }
 }
-
+ /* it('returns "I love you, too." if `string` is "I love you, Grandma."`', function() {
+    expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
+  })
+*/
 
